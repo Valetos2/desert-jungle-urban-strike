@@ -1,0 +1,92 @@
+[
+  {
+    "level": 1,
+    "width_pixels": 4096,
+    "height_pixels": 4096,
+    "cells": 65536,
+    "best_per_DOS_tile_matches": 21403,
+    "fraction": 0.3265838623046875,
+    "unique_DOS_tiles": 140,
+    "unique_Genesis_quads": 1014
+  },
+  {
+    "level": 2,
+    "width_pixels": 5120,
+    "height_pixels": 3584,
+    "cells": 71680,
+    "best_per_DOS_tile_matches": 12035,
+    "fraction": 0.16789899553571427,
+    "unique_DOS_tiles": 147,
+    "unique_Genesis_quads": 1370
+  },
+  {
+    "level": 3,
+    "width_pixels": 5120,
+    "height_pixels": 3584,
+    "cells": 71680,
+    "best_per_DOS_tile_matches": 9904,
+    "fraction": 0.13816964285714287,
+    "unique_DOS_tiles": 223,
+    "unique_Genesis_quads": 1552
+  },
+  {
+    "level": 4,
+    "width_pixels": 4096,
+    "height_pixels": 3072,
+    "cells": 49152,
+    "best_per_DOS_tile_matches": 6433,
+    "fraction": 0.13087972005208334,
+    "unique_DOS_tiles": 134,
+    "unique_Genesis_quads": 2691
+  },
+  {
+    "level": 5,
+    "width_pixels": 3584,
+    "height_pixels": 4096,
+    "cells": 57344,
+    "best_per_DOS_tile_matches": 26313,
+    "fraction": 0.4588623046875,
+    "unique_DOS_tiles": 400,
+    "unique_Genesis_quads": 923
+  },
+  {
+    "level": 6,
+    "width_pixels": 4096,
+    "height_pixels": 3072,
+    "cells": 49152,
+    "best_per_DOS_tile_matches": 8082,
+    "fraction": 0.1644287109375,
+    "unique_DOS_tiles": 122,
+    "unique_Genesis_quads": 711
+  },
+  {
+    "level": 7,
+    "width_pixels": 6144,
+    "height_pixels": 4096,
+    "cells": 98304,
+    "best_per_DOS_tile_matches": 13293,
+    "fraction": 0.135223388671875,
+    "unique_DOS_tiles": 199,
+    "unique_Genesis_quads": 4108
+  },
+  {
+    "level": 8,
+    "width_pixels": 4608,
+    "height_pixels": 3072,
+    "cells": 55296,
+    "best_per_DOS_tile_matches": 8106,
+    "fraction": 0.14659288194444445,
+    "unique_DOS_tiles": 184,
+    "unique_Genesis_quads": 2893
+  },
+  {
+    "level": 9,
+    "width_pixels": 3072,
+    "height_pixels": 3072,
+    "cells": 36864,
+    "best_per_DOS_tile_matches": 11249,
+    "fraction": 0.3051486545138889,
+    "unique_DOS_tiles": 137,
+    "unique_Genesis_quads": 1014
+  }
+]
