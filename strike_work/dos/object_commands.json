@@ -1,0 +1,579 @@
+{
+  "1": {
+    "counts": {
+      "parsed": 162,
+      "with_commands": 16,
+      "genesis_pairs": 107,
+      "matching_slot": 107,
+      "matching_flags": 107,
+      "identical_commands": 99,
+      "matching_with_padding": 99
+    },
+    "opcodes": {
+      "12": 5,
+      "16": 31
+    }
+  },
+  "2": {
+    "counts": {
+      "parsed": 118,
+      "with_commands": 10,
+      "genesis_pairs": 118,
+      "matching_slot": 118,
+      "matching_flags": 118,
+      "identical_commands": 118,
+      "matching_with_padding": 118
+    },
+    "opcodes": {
+      "16": 10
+    }
+  },
+  "3": {
+    "counts": {
+      "parsed": 123,
+      "with_commands": 68,
+      "genesis_pairs": 117,
+      "matching_slot": 117,
+      "matching_flags": 117,
+      "identical_commands": 94,
+      "matching_with_padding": 109
+    },
+    "opcodes": {
+      "12": 20,
+      "16": 63,
+      "0E": 3,
+      "02": 1
+    }
+  },
+  "4": {
+    "counts": {
+      "parsed": 151,
+      "with_commands": 106,
+      "genesis_pairs": 96,
+      "matching_slot": 96,
+      "matching_flags": 96,
+      "identical_commands": 72,
+      "matching_with_padding": 81
+    },
+    "opcodes": {
+      "16": 95,
+      "12": 43,
+      "02": 1
+    }
+  },
+  "5": {
+    "counts": {
+      "parsed": 192,
+      "with_commands": 51,
+      "genesis_pairs": 185,
+      "matching_slot": 185,
+      "matching_flags": 185,
+      "identical_commands": 169,
+      "matching_with_padding": 173
+    },
+    "opcodes": {
+      "16": 60,
+      "02": 13,
+      "12": 15,
+      "0E": 1
+    }
+  },
+  "6": {
+    "counts": {
+      "parsed": 141,
+      "with_commands": 63,
+      "genesis_pairs": 136,
+      "matching_slot": 136,
+      "matching_flags": 136,
+      "identical_commands": 108,
+      "matching_with_padding": 128
+    },
+    "opcodes": {
+      "16": 113,
+      "12": 3,
+      "0E": 1,
+      "02": 2
+    }
+  },
+  "7": {
+    "counts": {
+      "parsed": 109,
+      "with_commands": 80,
+      "genesis_pairs": 87,
+      "matching_slot": 77,
+      "matching_flags": 87,
+      "identical_commands": 34,
+      "matching_with_padding": 36
+    },
+    "opcodes": {
+      "12": 15,
+      "16": 112,
+      "02": 3
+    }
+  },
+  "8": {
+    "counts": {
+      "parsed": 85,
+      "with_commands": 38,
+      "genesis_pairs": 67,
+      "matching_slot": 67,
+      "matching_flags": 67,
+      "identical_commands": 60,
+      "matching_with_padding": 61
+    },
+    "opcodes": {
+      "16": 60,
+      "0E": 4,
+      "02": 9,
+      "12": 2
+    }
+  },
+  "9": {
+    "counts": {
+      "parsed": 69,
+      "with_commands": 2,
+      "genesis_pairs": 50,
+      "matching_slot": 50,
+      "matching_flags": 50,
+      "identical_commands": 42,
+      "matching_with_padding": 42
+    },
+    "opcodes": {
+      "16": 2
+    }
+  },
+  "A": {
+    "counts": {
+      "parsed": 95,
+      "with_commands": 23
+    },
+    "opcodes": {
+      "16": 45,
+      "0E": 4,
+      "02": 3
+    },
+    "objects_with_commands": [
+      {
+        "offset": 156,
+        "resource": "F162",
+        "slot": 40,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0612"
+          }
+        ]
+      },
+      {
+        "offset": 256,
+        "resource": "F164",
+        "slot": 49,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 5,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 377,
+        "resource": "F164",
+        "slot": 36,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 17,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 498,
+        "resource": "awac",
+        "slot": 38,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "021a"
+          }
+        ]
+      },
+      {
+        "offset": 544,
+        "resource": "icebergs",
+        "slot": 47,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          }
+        ]
+      },
+      {
+        "offset": 666,
+        "resource": "F164",
+        "slot": 56,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 884,
+        "resource": "frigate",
+        "slot": 55,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0612"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "021a"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 1136,
+        "resource": "frigate",
+        "slot": 57,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0612"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "021a"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 1314,
+        "resource": "icebergs",
+        "slot": 94,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          }
+        ]
+      },
+      {
+        "offset": 1668,
+        "resource": "frigate",
+        "slot": 58,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0612"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "021a"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 9,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 1879,
+        "resource": "F217",
+        "slot": 34,
+        "commands": [
+          {
+            "opcode": "0E",
+            "payload_size": 4,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "02",
+            "payload_size": 18,
+            "prefix": "0226"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 18,
+            "prefix": "0226"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "021a"
+          }
+        ]
+      },
+      {
+        "offset": 2065,
+        "resource": "F217",
+        "slot": 33,
+        "commands": [
+          {
+            "opcode": "0E",
+            "payload_size": 4,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "02",
+            "payload_size": 18,
+            "prefix": "0226"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 18,
+            "prefix": "0226"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "021a"
+          }
+        ]
+      },
+      {
+        "offset": 3049,
+        "resource": "F218-219",
+        "slot": 31,
+        "commands": [
+          {
+            "opcode": "0E",
+            "payload_size": 4,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 3133,
+        "resource": "F217",
+        "slot": 32,
+        "commands": [
+          {
+            "opcode": "0E",
+            "payload_size": 4,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "02",
+            "payload_size": 18,
+            "prefix": "0226"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 18,
+            "prefix": "0226"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "021a"
+          }
+        ]
+      },
+      {
+        "offset": 3429,
+        "resource": "F177",
+        "slot": 11,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 3715,
+        "resource": "F171-172",
+        "slot": 19,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a12"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 6,
+            "prefix": "0a16"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0616"
+          }
+        ]
+      },
+      {
+        "offset": 3869,
+        "resource": "icebergs",
+        "slot": 43,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          }
+        ]
+      },
+      {
+        "offset": 4141,
+        "resource": "F173",
+        "slot": 0,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0616"
+          }
+        ]
+      },
+      {
+        "offset": 4229,
+        "resource": "F177",
+        "slot": 1,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 4287,
+        "resource": "F177",
+        "slot": 2,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0606"
+          }
+        ]
+      },
+      {
+        "offset": 4497,
+        "resource": "F171-172",
+        "slot": 7,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 7,
+            "prefix": "0a16"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0616"
+          }
+        ]
+      },
+      {
+        "offset": 4594,
+        "resource": "F171-172",
+        "slot": 8,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 6,
+            "prefix": "0a16"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 8,
+            "prefix": "0a16"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0606"
+          },
+          {
+            "opcode": "16",
+            "payload_size": 16,
+            "prefix": "0616"
+          }
+        ]
+      },
+      {
+        "offset": 4818,
+        "resource": "icebergs",
+        "slot": 41,
+        "commands": [
+          {
+            "opcode": "16",
+            "payload_size": 4,
+            "prefix": "0a06"
+          }
+        ]
+      }
+    ]
+  }
+}
