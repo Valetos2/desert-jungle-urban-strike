@@ -1,0 +1,26 @@
+{
+  "desert": {
+    "patch": "Desert_Strike_v04_Menu_Fixes.ips",
+    "original_sha256": "deae2e33345244707c62dbc8ed1b087899463e67e217843a4b6c8b4d9c8b47c4",
+    "patched_sha256": "daae11cd2396499f8427801c8eed6c4dfdfe8253e96f5f247d74676ceb7b814f",
+    "ips_sha256": "f8b0061041d10beebc8fa5a1216e6ff4b44aae5346501dece894aa24d50733d3",
+    "ips_bytes": 3978,
+    "roundtrip": true
+  },
+  "jungle": {
+    "patch": "Jungle_Strike_v05_Menu_Polish.ips",
+    "original_sha256": "ea4eb94f7b3ecc1815ab2ac5adbd901b0e3a97a69ee2a31ead27600f12b1483a",
+    "patched_sha256": "12ce4fbf6d147e53a76683874b37597d0aec1c54cfbf00aec699f070b93da453",
+    "ips_sha256": "5de4b06007c21ff672eef7cd5b404b1105da6009f2a58407d57a35ec33768d89",
+    "ips_bytes": 4170,
+    "roundtrip": true
+  },
+  "urban": {
+    "patch": "Urban_Strike_v09_Menu_Music.ips",
+    "original_sha256": "ae63ade3413ce1b4816cd335e1fc4673c272b40026222566e8c9e3b7b01ca43d",
+    "patched_sha256": "21b0e8d3f36f57275b0d02ac4c12c2948f968b844dada78209995bdff87d3780",
+    "ips_sha256": "daa40280559344c96d74fc4ac92a0f352695e2d907667a370ed1e89a2e82c26d",
+    "ips_bytes": 3071,
+    "roundtrip": true
+  }
+}

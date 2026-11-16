@@ -1,0 +1,86 @@
+{
+  "desert": {
+    "base": 1048576,
+    "hooks": [
+      55636,
+      55708
+    ],
+    "geometry": 54376,
+    "skip": [
+      55666,
+      55738
+    ],
+    "pos": 40,
+    "scan": 55666,
+    "start": 55608,
+    "accept": 55742,
+    "none": 55848,
+    "head": 9488,
+    "side": 52,
+    "flag": 39,
+    "checkend": 1048484,
+    "checkat": 1048512,
+    "name": "Desert_Strike_v04_Menu_Fixes",
+    "original_sha256": "deae2e33345244707c62dbc8ed1b087899463e67e217843a4b6c8b4d9c8b47c4",
+    "expected": [
+      "2c6d00286100fb0e",
+      "2c6d00286100fac6"
+    ]
+  },
+  "jungle": {
+    "base": 2094080,
+    "hooks": [
+      282754,
+      282826
+    ],
+    "geometry": 281276,
+    "skip": [
+      282784,
+      282856
+    ],
+    "pos": 34,
+    "scan": 282784,
+    "start": 282726,
+    "accept": 282860,
+    "none": 282928,
+    "head": 10716,
+    "side": 46,
+    "flag": 33,
+    "checkend": 2093788,
+    "checkat": 2093816,
+    "name": "Jungle_Strike_v05_Menu_Polish",
+    "original_sha256": "ea4eb94f7b3ecc1815ab2ac5adbd901b0e3a97a69ee2a31ead27600f12b1483a",
+    "expected": [
+      "2c6d00226100fa34",
+      "2c6d00226100f9ec"
+    ]
+  },
+  "urban": {
+    "base": 2096640,
+    "hooks": [
+      63740,
+      63812
+    ],
+    "geometry": 62224,
+    "skip": [
+      63770,
+      63842
+    ],
+    "pos": 34,
+    "scan": 63770,
+    "start": 63712,
+    "accept": 63846,
+    "none": 63908,
+    "head": 18856,
+    "side": 46,
+    "flag": 33,
+    "checkend": 2093268,
+    "checkat": 2093296,
+    "name": "Urban_Strike_v09_Menu_Music",
+    "original_sha256": "ae63ade3413ce1b4816cd335e1fc4673c272b40026222566e8c9e3b7b01ca43d",
+    "expected": [
+      "2c6d00226100fa0e",
+      "2c6d00226100f9c6"
+    ]
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "games": {
+    "Desert_Strike_v04_Menu_Fixes": {
+      "bin": "daae11cd2396499f8427801c8eed6c4dfdfe8253e96f5f247d74676ceb7b814f",
+      "ips": "e233c167bdfcf14623966461a1eb19289e36351b09b4cbceb8f72b6b0a2fbbe0"
+    },
+    "Jungle_Strike_v05_Menu_Polish": {
+      "bin": "12ce4fbf6d147e53a76683874b37597d0aec1c54cfbf00aec699f070b93da453",
+      "ips": "466f8f452e4b0b81fa1bc9b01441dbb202decbf1707f55bba3212a2567b46ed0"
+    },
+    "Urban_Strike_v09_Menu_Music": {
+      "bin": "21b0e8d3f36f57275b0d02ac4c12c2948f968b844dada78209995bdff87d3780",
+      "ips": "c997c772f373f32e610506f5d3efb64baef4e7cd6b41b3e8f96cb104e8ea2e24"
+    }
+  },
+  "checks": {
+    "desert": {
+      "ips_roundtrip": true,
+      "checksums": true
+    },
+    "jungle": {
+      "ips_roundtrip": true,
+      "checksums": true
+    },
+    "urban": {
+      "ips_roundtrip": true,
+      "checksums": true
+    }
+  }
+}

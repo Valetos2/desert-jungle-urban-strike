@@ -1,0 +1,42 @@
+[
+  {
+    "stage": "main music",
+    "rms": 6314.89,
+    "pc": "0x37b2"
+  },
+  {
+    "stage": "entered options",
+    "rms": 5926.06,
+    "pc": "0x10104c"
+  },
+  {
+    "stage": "change sound index without playing",
+    "rms": 6352.14,
+    "pc": "0x101044"
+  },
+  {
+    "stage": "move to movie without playing",
+    "rms": 6620.91,
+    "pc": "0x10104c"
+  },
+  {
+    "stage": "exit options without playing",
+    "rms": 6273.37,
+    "pc": "0x37b2"
+  },
+  {
+    "stage": "test playback",
+    "rms": 4504.09,
+    "pc": "0x101044"
+  },
+  {
+    "stage": "leave played sound",
+    "rms": 0.0,
+    "pc": "0x10104c"
+  },
+  {
+    "stage": "exit after test",
+    "rms": 0.0,
+    "pc": "0x37b2"
+  }
+]

@@ -1,0 +1,156 @@
+[
+  {
+    "index": 0,
+    "skip": true,
+    "frames": 147,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 1,
+    "skip": true,
+    "frames": 141,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 2,
+    "skip": true,
+    "frames": 141,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 3,
+    "skip": true,
+    "frames": 141,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 4,
+    "skip": true,
+    "frames": 147,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 5,
+    "skip": true,
+    "frames": 147,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 6,
+    "skip": true,
+    "frames": 147,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 7,
+    "skip": true,
+    "frames": 141,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 8,
+    "skip": true,
+    "frames": 147,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 9,
+    "skip": true,
+    "frames": 147,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 10,
+    "skip": true,
+    "frames": 143,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 0,
+    "skip": false,
+    "frames": 3341,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 1,
+    "skip": false,
+    "frames": 7669,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 2,
+    "skip": false,
+    "frames": 2554,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 3,
+    "skip": false,
+    "frames": 2220,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 4,
+    "skip": false,
+    "frames": 9540,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 5,
+    "skip": false,
+    "frames": 15806,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 6,
+    "skip": false,
+    "frames": 15890,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 7,
+    "skip": false,
+    "frames": 15736,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 8,
+    "skip": false,
+    "frames": 16011,
+    "pc": "0x10104c",
+    "row": 4
+  },
+  {
+    "index": 9,
+    "skip": false,
+    "frames": 1519,
+    "pc": "0x101044",
+    "row": 4
+  },
+  {
+    "index": 10,
+    "skip": false,
+    "frames": 1146,
+    "pc": "0x10104c",
+    "row": 4
+  }
+]
