@@ -1,0 +1,2253 @@
+{
+  "levels": {
+    "1": {
+      "tail_offset": 13029,
+      "entries": [
+        {
+          "offset": 13029,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map1X"
+        },
+        {
+          "offset": 13039,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks1X"
+        },
+        {
+          "offset": 13052,
+          "kind": 2,
+          "address_word": 38503,
+          "resource": "F52"
+        },
+        {
+          "offset": 13060,
+          "kind": 0,
+          "address_word": 38675,
+          "resource": "washxtra"
+        },
+        {
+          "offset": 13073,
+          "kind": 2,
+          "address_word": 38505,
+          "resource": "F3"
+        },
+        {
+          "offset": 13080,
+          "kind": 2,
+          "address_word": 38521,
+          "resource": "F38"
+        },
+        {
+          "offset": 13088,
+          "kind": 2,
+          "address_word": 38535,
+          "resource": "F49"
+        },
+        {
+          "offset": 13096,
+          "kind": 2,
+          "address_word": 38537,
+          "resource": "F27-9"
+        },
+        {
+          "offset": 13106,
+          "kind": 2,
+          "address_word": 38509,
+          "resource": "F44"
+        },
+        {
+          "offset": 13114,
+          "kind": 2,
+          "address_word": 38507,
+          "resource": "F50"
+        },
+        {
+          "offset": 13122,
+          "kind": 2,
+          "address_word": 38511,
+          "resource": "F45-6"
+        },
+        {
+          "offset": 13132,
+          "kind": 2,
+          "address_word": 38513,
+          "resource": "F40"
+        },
+        {
+          "offset": 13140,
+          "kind": 2,
+          "address_word": 38515,
+          "resource": "F56-8"
+        },
+        {
+          "offset": 13150,
+          "kind": 2,
+          "address_word": 38517,
+          "resource": "F61"
+        },
+        {
+          "offset": 13158,
+          "kind": 2,
+          "address_word": 38519,
+          "resource": "F59-60"
+        },
+        {
+          "offset": 13169,
+          "kind": 2,
+          "address_word": 38523,
+          "resource": "F43"
+        },
+        {
+          "offset": 13177,
+          "kind": 2,
+          "address_word": 38525,
+          "resource": "F62"
+        },
+        {
+          "offset": 13185,
+          "kind": 2,
+          "address_word": 38527,
+          "resource": "F41"
+        },
+        {
+          "offset": 13193,
+          "kind": 2,
+          "address_word": 38529,
+          "resource": "F47-48"
+        },
+        {
+          "offset": 13204,
+          "kind": 2,
+          "address_word": 38531,
+          "resource": "F42"
+        },
+        {
+          "offset": 13212,
+          "kind": 2,
+          "address_word": 38533,
+          "resource": "F39"
+        },
+        {
+          "offset": 13220,
+          "kind": 2,
+          "address_word": 38655,
+          "resource": "F31-37"
+        },
+        {
+          "offset": 13231,
+          "kind": 2,
+          "address_word": 38673,
+          "resource": "F63-66"
+        },
+        {
+          "offset": 13242,
+          "kind": 2,
+          "address_word": 38703,
+          "resource": "ctruck"
+        },
+        {
+          "offset": 13253,
+          "kind": 2,
+          "address_word": 38705,
+          "resource": "sedan"
+        },
+        {
+          "offset": 13263,
+          "kind": 2,
+          "address_word": 38707,
+          "resource": "limo"
+        },
+        {
+          "offset": 13272,
+          "kind": 2,
+          "address_word": 38709,
+          "resource": "acar"
+        },
+        {
+          "offset": 13281,
+          "kind": 2,
+          "address_word": 38711,
+          "resource": "subaru"
+        },
+        {
+          "offset": 13292,
+          "kind": 2,
+          "address_word": 38713,
+          "resource": "statue"
+        },
+        {
+          "offset": 13303,
+          "kind": 2,
+          "address_word": 38715,
+          "resource": "rv"
+        },
+        {
+          "offset": 13310,
+          "kind": 2,
+          "address_word": 38719,
+          "resource": "wagon"
+        },
+        {
+          "offset": 13320,
+          "kind": 2,
+          "address_word": 38721,
+          "resource": "police"
+        },
+        {
+          "offset": 13331,
+          "kind": 2,
+          "address_word": 38723,
+          "resource": "van"
+        },
+        {
+          "offset": 13339,
+          "kind": 2,
+          "address_word": 38725,
+          "resource": "street"
+        },
+        {
+          "offset": 13350,
+          "kind": 2,
+          "address_word": 38727,
+          "resource": "akbar"
+        },
+        {
+          "offset": 13360,
+          "kind": 2,
+          "address_word": 38729,
+          "resource": "cmndr"
+        },
+        {
+          "offset": 13370,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "2": {
+      "tail_offset": 11225,
+      "entries": [
+        {
+          "offset": 11225,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map2X"
+        },
+        {
+          "offset": 11235,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks2X"
+        },
+        {
+          "offset": 11248,
+          "kind": 2,
+          "address_word": 38689,
+          "resource": "F67-73"
+        },
+        {
+          "offset": 11259,
+          "kind": 2,
+          "address_word": 38679,
+          "resource": "F75"
+        },
+        {
+          "offset": 11267,
+          "kind": 2,
+          "address_word": 38681,
+          "resource": "F74"
+        },
+        {
+          "offset": 11275,
+          "kind": 2,
+          "address_word": 38683,
+          "resource": "F77-80"
+        },
+        {
+          "offset": 11286,
+          "kind": 2,
+          "address_word": 38685,
+          "resource": "F76"
+        },
+        {
+          "offset": 11294,
+          "kind": 2,
+          "address_word": 38687,
+          "resource": "F81"
+        },
+        {
+          "offset": 11302,
+          "kind": 2,
+          "address_word": 38739,
+          "resource": "fence1"
+        },
+        {
+          "offset": 11313,
+          "kind": 2,
+          "address_word": 38741,
+          "resource": "coastg"
+        },
+        {
+          "offset": 11324,
+          "kind": 2,
+          "address_word": 38743,
+          "resource": "aaa"
+        },
+        {
+          "offset": 11332,
+          "kind": 2,
+          "address_word": 38745,
+          "resource": "subspry"
+        },
+        {
+          "offset": 11344,
+          "kind": 2,
+          "address_word": 38747,
+          "resource": "subtur"
+        },
+        {
+          "offset": 11355,
+          "kind": 2,
+          "address_word": 38749,
+          "resource": "shark"
+        },
+        {
+          "offset": 11365,
+          "kind": 2,
+          "address_word": 38751,
+          "resource": "speed"
+        },
+        {
+          "offset": 11375,
+          "kind": 2,
+          "address_word": 38753,
+          "resource": "raft"
+        },
+        {
+          "offset": 11384,
+          "kind": 2,
+          "address_word": 38755,
+          "resource": "boatpt"
+        },
+        {
+          "offset": 11395,
+          "kind": 2,
+          "address_word": 38757,
+          "resource": "plutoni"
+        },
+        {
+          "offset": 11407,
+          "kind": 2,
+          "address_word": 38759,
+          "resource": "plutoni2"
+        },
+        {
+          "offset": 11420,
+          "kind": 2,
+          "address_word": 38703,
+          "resource": "ctruck"
+        },
+        {
+          "offset": 11431,
+          "kind": 2,
+          "address_word": 38775,
+          "resource": "ammo2"
+        },
+        {
+          "offset": 11441,
+          "kind": 2,
+          "address_word": 38777,
+          "resource": "life2"
+        },
+        {
+          "offset": 11451,
+          "kind": 2,
+          "address_word": 38791,
+          "resource": "planef15"
+        },
+        {
+          "offset": 11464,
+          "kind": 2,
+          "address_word": 38797,
+          "resource": "hover"
+        },
+        {
+          "offset": 11474,
+          "kind": 2,
+          "address_word": 38799,
+          "resource": "hovcrash"
+        },
+        {
+          "offset": 11487,
+          "kind": 2,
+          "address_word": 38801,
+          "resource": "hovsmoke"
+        },
+        {
+          "offset": 11500,
+          "kind": 2,
+          "address_word": 38803,
+          "resource": "spray1"
+        },
+        {
+          "offset": 11511,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "3": {
+      "tail_offset": 17811,
+      "entries": [
+        {
+          "offset": 17811,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map3X"
+        },
+        {
+          "offset": 17821,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks3X"
+        },
+        {
+          "offset": 17834,
+          "kind": 2,
+          "address_word": 38699,
+          "resource": "F104"
+        },
+        {
+          "offset": 17843,
+          "kind": 2,
+          "address_word": 38657,
+          "resource": "F100-103"
+        },
+        {
+          "offset": 17856,
+          "kind": 2,
+          "address_word": 38539,
+          "resource": "F105-106"
+        },
+        {
+          "offset": 17869,
+          "kind": 2,
+          "address_word": 38541,
+          "resource": "F107"
+        },
+        {
+          "offset": 17878,
+          "kind": 2,
+          "address_word": 38545,
+          "resource": "F108"
+        },
+        {
+          "offset": 17887,
+          "kind": 2,
+          "address_word": 38543,
+          "resource": "F109"
+        },
+        {
+          "offset": 17896,
+          "kind": 2,
+          "address_word": 38697,
+          "resource": "F22-24"
+        },
+        {
+          "offset": 17907,
+          "kind": 2,
+          "address_word": 38665,
+          "resource": "F88-90"
+        },
+        {
+          "offset": 17918,
+          "kind": 2,
+          "address_word": 38663,
+          "resource": "F91-94"
+        },
+        {
+          "offset": 17929,
+          "kind": 2,
+          "address_word": 38659,
+          "resource": "F95"
+        },
+        {
+          "offset": 17937,
+          "kind": 2,
+          "address_word": 38661,
+          "resource": "F96"
+        },
+        {
+          "offset": 17945,
+          "kind": 2,
+          "address_word": 38677,
+          "resource": "F97"
+        },
+        {
+          "offset": 17953,
+          "kind": 2,
+          "address_word": 38667,
+          "resource": "F98-99"
+        },
+        {
+          "offset": 17964,
+          "kind": 2,
+          "address_word": 38729,
+          "resource": "cmndr"
+        },
+        {
+          "offset": 17974,
+          "kind": 2,
+          "address_word": 38761,
+          "resource": "gatgun"
+        },
+        {
+          "offset": 17985,
+          "kind": 2,
+          "address_word": 38763,
+          "resource": "radar"
+        },
+        {
+          "offset": 17995,
+          "kind": 2,
+          "address_word": 38765,
+          "resource": "zsu"
+        },
+        {
+          "offset": 18003,
+          "kind": 2,
+          "address_word": 38767,
+          "resource": "flags"
+        },
+        {
+          "offset": 18013,
+          "kind": 2,
+          "address_word": 38757,
+          "resource": "plutoni"
+        },
+        {
+          "offset": 18025,
+          "kind": 2,
+          "address_word": 38805,
+          "resource": "gunman"
+        },
+        {
+          "offset": 18036,
+          "kind": 2,
+          "address_word": 38769,
+          "resource": "press"
+        },
+        {
+          "offset": 18046,
+          "kind": 2,
+          "address_word": 38781,
+          "resource": "crate"
+        },
+        {
+          "offset": 18056,
+          "kind": 2,
+          "address_word": 38771,
+          "resource": "reactor"
+        },
+        {
+          "offset": 18068,
+          "kind": 2,
+          "address_word": 38787,
+          "resource": "humvtur"
+        },
+        {
+          "offset": 18080,
+          "kind": 2,
+          "address_word": 38789,
+          "resource": "humv"
+        },
+        {
+          "offset": 18089,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "4": {
+      "tail_offset": 14840,
+      "entries": [
+        {
+          "offset": 14840,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map4X"
+        },
+        {
+          "offset": 14850,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks4X"
+        },
+        {
+          "offset": 14863,
+          "kind": 2,
+          "address_word": 38691,
+          "resource": "F4-8"
+        },
+        {
+          "offset": 14872,
+          "kind": 2,
+          "address_word": 38693,
+          "resource": "F112-113"
+        },
+        {
+          "offset": 14885,
+          "kind": 2,
+          "address_word": 38547,
+          "resource": "F114"
+        },
+        {
+          "offset": 14894,
+          "kind": 2,
+          "address_word": 38549,
+          "resource": "F115-116"
+        },
+        {
+          "offset": 14907,
+          "kind": 2,
+          "address_word": 38551,
+          "resource": "F117-118"
+        },
+        {
+          "offset": 14920,
+          "kind": 2,
+          "address_word": 38553,
+          "resource": "F119"
+        },
+        {
+          "offset": 14929,
+          "kind": 2,
+          "address_word": 38669,
+          "resource": "F15-18"
+        },
+        {
+          "offset": 14940,
+          "kind": 2,
+          "address_word": 38671,
+          "resource": "F19-21"
+        },
+        {
+          "offset": 14951,
+          "kind": 2,
+          "address_word": 38729,
+          "resource": "cmndr"
+        },
+        {
+          "offset": 14961,
+          "kind": 2,
+          "address_word": 38709,
+          "resource": "acar"
+        },
+        {
+          "offset": 14970,
+          "kind": 2,
+          "address_word": 38807,
+          "resource": "migbits"
+        },
+        {
+          "offset": 14982,
+          "kind": 2,
+          "address_word": 38819,
+          "resource": "chopper"
+        },
+        {
+          "offset": 14994,
+          "kind": 2,
+          "address_word": 38729,
+          "resource": "cmndr"
+        },
+        {
+          "offset": 15004,
+          "kind": 66,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "5": {
+      "tail_offset": 17012,
+      "entries": [
+        {
+          "offset": 17012,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map5x"
+        },
+        {
+          "offset": 17022,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks5x"
+        },
+        {
+          "offset": 17035,
+          "kind": 2,
+          "address_word": 38555,
+          "resource": "F122-137"
+        },
+        {
+          "offset": 17048,
+          "kind": 2,
+          "address_word": 38557,
+          "resource": "F138-146"
+        },
+        {
+          "offset": 17061,
+          "kind": 2,
+          "address_word": 38559,
+          "resource": "F147-150"
+        },
+        {
+          "offset": 17074,
+          "kind": 2,
+          "address_word": 38561,
+          "resource": "F151-152"
+        },
+        {
+          "offset": 17087,
+          "kind": 2,
+          "address_word": 38563,
+          "resource": "F153-154"
+        },
+        {
+          "offset": 17100,
+          "kind": 2,
+          "address_word": 38565,
+          "resource": "F155-156"
+        },
+        {
+          "offset": 17113,
+          "kind": 2,
+          "address_word": 38567,
+          "resource": "F157"
+        },
+        {
+          "offset": 17122,
+          "kind": 2,
+          "address_word": 38569,
+          "resource": "F158"
+        },
+        {
+          "offset": 17131,
+          "kind": 2,
+          "address_word": 38571,
+          "resource": "F159"
+        },
+        {
+          "offset": 17140,
+          "kind": 2,
+          "address_word": 38697,
+          "resource": "F22-24"
+        },
+        {
+          "offset": 17151,
+          "kind": 2,
+          "address_word": 38695,
+          "resource": "F25-26"
+        },
+        {
+          "offset": 17162,
+          "kind": 2,
+          "address_word": 38703,
+          "resource": "ctruck"
+        },
+        {
+          "offset": 17173,
+          "kind": 2,
+          "address_word": 38763,
+          "resource": "radar"
+        },
+        {
+          "offset": 17183,
+          "kind": 2,
+          "address_word": 38773,
+          "resource": "vat"
+        },
+        {
+          "offset": 17191,
+          "kind": 2,
+          "address_word": 38767,
+          "resource": "flags"
+        },
+        {
+          "offset": 17201,
+          "kind": 2,
+          "address_word": 38825,
+          "resource": "twingun"
+        },
+        {
+          "offset": 17213,
+          "kind": 2,
+          "address_word": 38793,
+          "resource": "tactical"
+        },
+        {
+          "offset": 17226,
+          "kind": 2,
+          "address_word": 38783,
+          "resource": "table"
+        },
+        {
+          "offset": 17236,
+          "kind": 2,
+          "address_word": 38713,
+          "resource": "statue"
+        },
+        {
+          "offset": 17247,
+          "kind": 2,
+          "address_word": 38769,
+          "resource": "press"
+        },
+        {
+          "offset": 17257,
+          "kind": 2,
+          "address_word": 38721,
+          "resource": "police"
+        },
+        {
+          "offset": 17268,
+          "kind": 2,
+          "address_word": 38811,
+          "resource": "mlr"
+        },
+        {
+          "offset": 17276,
+          "kind": 2,
+          "address_word": 38779,
+          "resource": "labs"
+        },
+        {
+          "offset": 17285,
+          "kind": 2,
+          "address_word": 38787,
+          "resource": "humvtur"
+        },
+        {
+          "offset": 17297,
+          "kind": 2,
+          "address_word": 38789,
+          "resource": "humv"
+        },
+        {
+          "offset": 17306,
+          "kind": 2,
+          "address_word": 38785,
+          "resource": "detapc"
+        },
+        {
+          "offset": 17317,
+          "kind": 2,
+          "address_word": 38827,
+          "resource": "jeans"
+        },
+        {
+          "offset": 17327,
+          "kind": 2,
+          "address_word": 38837,
+          "resource": "cycle0l"
+        },
+        {
+          "offset": 17339,
+          "kind": 2,
+          "address_word": 38839,
+          "resource": "cycle00"
+        },
+        {
+          "offset": 17351,
+          "kind": 2,
+          "address_word": 38841,
+          "resource": "cycle0r"
+        },
+        {
+          "offset": 17363,
+          "kind": 2,
+          "address_word": 38843,
+          "resource": "cyccrash"
+        },
+        {
+          "offset": 17376,
+          "kind": 2,
+          "address_word": 38845,
+          "resource": "cycsmoke"
+        },
+        {
+          "offset": 17389,
+          "kind": 2,
+          "address_word": 38857,
+          "resource": "det"
+        },
+        {
+          "offset": 17397,
+          "kind": 2,
+          "address_word": 38859,
+          "resource": "coca"
+        },
+        {
+          "offset": 17406,
+          "kind": 2,
+          "address_word": 38863,
+          "resource": "c4"
+        },
+        {
+          "offset": 17413,
+          "kind": 2,
+          "address_word": 38865,
+          "resource": "drug"
+        },
+        {
+          "offset": 17422,
+          "kind": 2,
+          "address_word": 38869,
+          "resource": "cow"
+        },
+        {
+          "offset": 17430,
+          "kind": 2,
+          "address_word": 38883,
+          "resource": "gastruck"
+        },
+        {
+          "offset": 17443,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        },
+        {
+          "offset": 17455,
+          "kind": 2,
+          "address_word": 38835,
+          "resource": "smalltwr"
+        }
+      ]
+    },
+    "6": {
+      "tail_offset": 14033,
+      "entries": [
+        {
+          "offset": 14033,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map6x"
+        },
+        {
+          "offset": 14043,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks6x"
+        },
+        {
+          "offset": 14056,
+          "kind": 2,
+          "address_word": 38573,
+          "resource": "F160"
+        },
+        {
+          "offset": 14065,
+          "kind": 2,
+          "address_word": 38575,
+          "resource": "F161"
+        },
+        {
+          "offset": 14074,
+          "kind": 2,
+          "address_word": 38577,
+          "resource": "F162"
+        },
+        {
+          "offset": 14083,
+          "kind": 2,
+          "address_word": 38579,
+          "resource": "F163"
+        },
+        {
+          "offset": 14092,
+          "kind": 2,
+          "address_word": 38581,
+          "resource": "F164"
+        },
+        {
+          "offset": 14101,
+          "kind": 2,
+          "address_word": 38583,
+          "resource": "F165"
+        },
+        {
+          "offset": 14110,
+          "kind": 2,
+          "address_word": 38585,
+          "resource": "F166"
+        },
+        {
+          "offset": 14119,
+          "kind": 2,
+          "address_word": 38587,
+          "resource": "F167"
+        },
+        {
+          "offset": 14128,
+          "kind": 2,
+          "address_word": 38589,
+          "resource": "F168"
+        },
+        {
+          "offset": 14137,
+          "kind": 2,
+          "address_word": 38591,
+          "resource": "F169-170"
+        },
+        {
+          "offset": 14150,
+          "kind": 2,
+          "address_word": 38593,
+          "resource": "F171-172"
+        },
+        {
+          "offset": 14163,
+          "kind": 2,
+          "address_word": 38595,
+          "resource": "F173"
+        },
+        {
+          "offset": 14172,
+          "kind": 2,
+          "address_word": 38597,
+          "resource": "F174"
+        },
+        {
+          "offset": 14181,
+          "kind": 2,
+          "address_word": 38599,
+          "resource": "F175-176"
+        },
+        {
+          "offset": 14194,
+          "kind": 2,
+          "address_word": 38601,
+          "resource": "F177"
+        },
+        {
+          "offset": 14203,
+          "kind": 2,
+          "address_word": 38603,
+          "resource": "F178"
+        },
+        {
+          "offset": 14212,
+          "kind": 2,
+          "address_word": 38605,
+          "resource": "F179"
+        },
+        {
+          "offset": 14221,
+          "kind": 2,
+          "address_word": 38697,
+          "resource": "F22-24"
+        },
+        {
+          "offset": 14232,
+          "kind": 2,
+          "address_word": 38695,
+          "resource": "F25-26"
+        },
+        {
+          "offset": 14243,
+          "kind": 2,
+          "address_word": 38763,
+          "resource": "radar"
+        },
+        {
+          "offset": 14253,
+          "kind": 2,
+          "address_word": 38821,
+          "resource": "m1"
+        },
+        {
+          "offset": 14260,
+          "kind": 2,
+          "address_word": 38787,
+          "resource": "humvtur"
+        },
+        {
+          "offset": 14272,
+          "kind": 2,
+          "address_word": 38789,
+          "resource": "humv"
+        },
+        {
+          "offset": 14281,
+          "kind": 2,
+          "address_word": 38805,
+          "resource": "gunman"
+        },
+        {
+          "offset": 14292,
+          "kind": 2,
+          "address_word": 38761,
+          "resource": "gatgun"
+        },
+        {
+          "offset": 14303,
+          "kind": 2,
+          "address_word": 38703,
+          "resource": "ctruck"
+        },
+        {
+          "offset": 14314,
+          "kind": 2,
+          "address_word": 38729,
+          "resource": "cmndr"
+        },
+        {
+          "offset": 14324,
+          "kind": 2,
+          "address_word": 38819,
+          "resource": "chopper"
+        },
+        {
+          "offset": 14336,
+          "kind": 2,
+          "address_word": 38877,
+          "resource": "shaft"
+        },
+        {
+          "offset": 14346,
+          "kind": 2,
+          "address_word": 38867,
+          "resource": "warhead"
+        },
+        {
+          "offset": 14358,
+          "kind": 2,
+          "address_word": 38871,
+          "resource": "airvent"
+        },
+        {
+          "offset": 14370,
+          "kind": 2,
+          "address_word": 38873,
+          "resource": "tram"
+        },
+        {
+          "offset": 14379,
+          "kind": 2,
+          "address_word": 38875,
+          "resource": "tramx"
+        },
+        {
+          "offset": 14389,
+          "kind": 2,
+          "address_word": 38887,
+          "resource": "snowman"
+        },
+        {
+          "offset": 14401,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "7": {
+      "tail_offset": 11732,
+      "entries": [
+        {
+          "offset": 11732,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map7X"
+        },
+        {
+          "offset": 11742,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks7X"
+        },
+        {
+          "offset": 11755,
+          "kind": 2,
+          "address_word": 38607,
+          "resource": "F180"
+        },
+        {
+          "offset": 11764,
+          "kind": 2,
+          "address_word": 38609,
+          "resource": "F181-182"
+        },
+        {
+          "offset": 11777,
+          "kind": 2,
+          "address_word": 38611,
+          "resource": "F183-186"
+        },
+        {
+          "offset": 11790,
+          "kind": 2,
+          "address_word": 38613,
+          "resource": "F187-199"
+        },
+        {
+          "offset": 11803,
+          "kind": 2,
+          "address_word": 38615,
+          "resource": "temple"
+        },
+        {
+          "offset": 11814,
+          "kind": 2,
+          "address_word": 38617,
+          "resource": "F193"
+        },
+        {
+          "offset": 11823,
+          "kind": 2,
+          "address_word": 38619,
+          "resource": "F194-195"
+        },
+        {
+          "offset": 11836,
+          "kind": 2,
+          "address_word": 38621,
+          "resource": "F196"
+        },
+        {
+          "offset": 11845,
+          "kind": 2,
+          "address_word": 38623,
+          "resource": "F197"
+        },
+        {
+          "offset": 11854,
+          "kind": 2,
+          "address_word": 38625,
+          "resource": "F200-201"
+        },
+        {
+          "offset": 11867,
+          "kind": 2,
+          "address_word": 38627,
+          "resource": "F202"
+        },
+        {
+          "offset": 11876,
+          "kind": 2,
+          "address_word": 38629,
+          "resource": "F203"
+        },
+        {
+          "offset": 11885,
+          "kind": 2,
+          "address_word": 38631,
+          "resource": "F204"
+        },
+        {
+          "offset": 11894,
+          "kind": 2,
+          "address_word": 38633,
+          "resource": "F205"
+        },
+        {
+          "offset": 11903,
+          "kind": 2,
+          "address_word": 38669,
+          "resource": "F15-18"
+        },
+        {
+          "offset": 11914,
+          "kind": 2,
+          "address_word": 38671,
+          "resource": "F19-21"
+        },
+        {
+          "offset": 11925,
+          "kind": 2,
+          "address_word": 38691,
+          "resource": "F4-8"
+        },
+        {
+          "offset": 11934,
+          "kind": 2,
+          "address_word": 38825,
+          "resource": "twingun"
+        },
+        {
+          "offset": 11946,
+          "kind": 2,
+          "address_word": 38783,
+          "resource": "table"
+        },
+        {
+          "offset": 11956,
+          "kind": 2,
+          "address_word": 38771,
+          "resource": "reactor"
+        },
+        {
+          "offset": 11968,
+          "kind": 2,
+          "address_word": 38763,
+          "resource": "radar"
+        },
+        {
+          "offset": 11978,
+          "kind": 2,
+          "address_word": 38757,
+          "resource": "plutoni"
+        },
+        {
+          "offset": 11990,
+          "kind": 2,
+          "address_word": 38759,
+          "resource": "plutoni2"
+        },
+        {
+          "offset": 12003,
+          "kind": 2,
+          "address_word": 38787,
+          "resource": "humvtur"
+        },
+        {
+          "offset": 12015,
+          "kind": 2,
+          "address_word": 38789,
+          "resource": "humv"
+        },
+        {
+          "offset": 12024,
+          "kind": 2,
+          "address_word": 38765,
+          "resource": "zsu"
+        },
+        {
+          "offset": 12032,
+          "kind": 2,
+          "address_word": 38847,
+          "resource": "strl"
+        },
+        {
+          "offset": 12041,
+          "kind": 2,
+          "address_word": 38849,
+          "resource": "st00"
+        },
+        {
+          "offset": 12050,
+          "kind": 2,
+          "address_word": 38851,
+          "resource": "strr"
+        },
+        {
+          "offset": 12059,
+          "kind": 2,
+          "address_word": 38853,
+          "resource": "stsh"
+        },
+        {
+          "offset": 12068,
+          "kind": 2,
+          "address_word": 38855,
+          "resource": "stxplod"
+        },
+        {
+          "offset": 12080,
+          "kind": 2,
+          "address_word": 38857,
+          "resource": "det"
+        },
+        {
+          "offset": 12088,
+          "kind": 2,
+          "address_word": 38867,
+          "resource": "warhead"
+        },
+        {
+          "offset": 12100,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "8": {
+      "tail_offset": 8987,
+      "entries": [
+        {
+          "offset": 8987,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map8x"
+        },
+        {
+          "offset": 8997,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks8x"
+        },
+        {
+          "offset": 9010,
+          "kind": 2,
+          "address_word": 38635,
+          "resource": "F206"
+        },
+        {
+          "offset": 9019,
+          "kind": 2,
+          "address_word": 38637,
+          "resource": "F207-211"
+        },
+        {
+          "offset": 9032,
+          "kind": 2,
+          "address_word": 38639,
+          "resource": "F212-213"
+        },
+        {
+          "offset": 9045,
+          "kind": 2,
+          "address_word": 38641,
+          "resource": "F214"
+        },
+        {
+          "offset": 9054,
+          "kind": 2,
+          "address_word": 38643,
+          "resource": "F215"
+        },
+        {
+          "offset": 9063,
+          "kind": 2,
+          "address_word": 38645,
+          "resource": "F216"
+        },
+        {
+          "offset": 9072,
+          "kind": 2,
+          "address_word": 38647,
+          "resource": "F217"
+        },
+        {
+          "offset": 9081,
+          "kind": 2,
+          "address_word": 38649,
+          "resource": "F218-219"
+        },
+        {
+          "offset": 9094,
+          "kind": 2,
+          "address_word": 38651,
+          "resource": "F220"
+        },
+        {
+          "offset": 9103,
+          "kind": 2,
+          "address_word": 38653,
+          "resource": "F221"
+        },
+        {
+          "offset": 9112,
+          "kind": 2,
+          "address_word": 38767,
+          "resource": "flags"
+        },
+        {
+          "offset": 9122,
+          "kind": 2,
+          "address_word": 38793,
+          "resource": "tactical"
+        },
+        {
+          "offset": 9135,
+          "kind": 2,
+          "address_word": 38751,
+          "resource": "speed"
+        },
+        {
+          "offset": 9145,
+          "kind": 2,
+          "address_word": 38753,
+          "resource": "raft"
+        },
+        {
+          "offset": 9154,
+          "kind": 2,
+          "address_word": 38823,
+          "resource": "mobile"
+        },
+        {
+          "offset": 9165,
+          "kind": 2,
+          "address_word": 38807,
+          "resource": "migbits"
+        },
+        {
+          "offset": 9177,
+          "kind": 2,
+          "address_word": 38821,
+          "resource": "m1"
+        },
+        {
+          "offset": 9184,
+          "kind": 2,
+          "address_word": 38761,
+          "resource": "gatgun"
+        },
+        {
+          "offset": 9195,
+          "kind": 2,
+          "address_word": 38703,
+          "resource": "ctruck"
+        },
+        {
+          "offset": 9206,
+          "kind": 2,
+          "address_word": 38819,
+          "resource": "chopper"
+        },
+        {
+          "offset": 9218,
+          "kind": 2,
+          "address_word": 38787,
+          "resource": "humvtur"
+        },
+        {
+          "offset": 9230,
+          "kind": 2,
+          "address_word": 38789,
+          "resource": "humv"
+        },
+        {
+          "offset": 9239,
+          "kind": 2,
+          "address_word": 38879,
+          "resource": "missile"
+        },
+        {
+          "offset": 9251,
+          "kind": 2,
+          "address_word": 38861,
+          "resource": "vstat"
+        },
+        {
+          "offset": 9261,
+          "kind": 2,
+          "address_word": 38883,
+          "resource": "gastruck"
+        },
+        {
+          "offset": 9274,
+          "kind": 2,
+          "address_word": 38833,
+          "resource": "madman"
+        },
+        {
+          "offset": 9285,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "9": {
+      "tail_offset": 6778,
+      "entries": [
+        {
+          "offset": 6778,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map9x"
+        },
+        {
+          "offset": 6788,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks1x"
+        },
+        {
+          "offset": 6801,
+          "kind": 2,
+          "address_word": 38503,
+          "resource": "F52"
+        },
+        {
+          "offset": 6809,
+          "kind": 2,
+          "address_word": 38505,
+          "resource": "F3"
+        },
+        {
+          "offset": 6816,
+          "kind": 2,
+          "address_word": 38521,
+          "resource": "F38"
+        },
+        {
+          "offset": 6824,
+          "kind": 2,
+          "address_word": 38537,
+          "resource": "F27-9"
+        },
+        {
+          "offset": 6834,
+          "kind": 2,
+          "address_word": 38509,
+          "resource": "F44"
+        },
+        {
+          "offset": 6842,
+          "kind": 2,
+          "address_word": 38507,
+          "resource": "F50"
+        },
+        {
+          "offset": 6850,
+          "kind": 2,
+          "address_word": 38513,
+          "resource": "F40"
+        },
+        {
+          "offset": 6858,
+          "kind": 2,
+          "address_word": 38515,
+          "resource": "F56-8"
+        },
+        {
+          "offset": 6868,
+          "kind": 2,
+          "address_word": 38517,
+          "resource": "F61"
+        },
+        {
+          "offset": 6876,
+          "kind": 2,
+          "address_word": 38519,
+          "resource": "F59-60"
+        },
+        {
+          "offset": 6887,
+          "kind": 2,
+          "address_word": 38523,
+          "resource": "F43"
+        },
+        {
+          "offset": 6895,
+          "kind": 2,
+          "address_word": 38525,
+          "resource": "F62"
+        },
+        {
+          "offset": 6903,
+          "kind": 2,
+          "address_word": 38527,
+          "resource": "F41"
+        },
+        {
+          "offset": 6911,
+          "kind": 2,
+          "address_word": 38531,
+          "resource": "F42"
+        },
+        {
+          "offset": 6919,
+          "kind": 2,
+          "address_word": 38533,
+          "resource": "F39"
+        },
+        {
+          "offset": 6927,
+          "kind": 2,
+          "address_word": 38655,
+          "resource": "F31-37"
+        },
+        {
+          "offset": 6938,
+          "kind": 2,
+          "address_word": 38673,
+          "resource": "F63-66"
+        },
+        {
+          "offset": 6949,
+          "kind": 0,
+          "address_word": 38675,
+          "resource": "washxtra"
+        },
+        {
+          "offset": 6962,
+          "kind": 2,
+          "address_word": 38813,
+          "resource": "pheli"
+        },
+        {
+          "offset": 6972,
+          "kind": 2,
+          "address_word": 38815,
+          "resource": "pshad"
+        },
+        {
+          "offset": 6982,
+          "kind": 2,
+          "address_word": 38817,
+          "resource": "phelirot"
+        },
+        {
+          "offset": 6995,
+          "kind": 2,
+          "address_word": 38703,
+          "resource": "ctruck"
+        },
+        {
+          "offset": 7006,
+          "kind": 2,
+          "address_word": 38705,
+          "resource": "sedan"
+        },
+        {
+          "offset": 7016,
+          "kind": 2,
+          "address_word": 38707,
+          "resource": "limo"
+        },
+        {
+          "offset": 7025,
+          "kind": 2,
+          "address_word": 38709,
+          "resource": "acar"
+        },
+        {
+          "offset": 7034,
+          "kind": 2,
+          "address_word": 38711,
+          "resource": "subaru"
+        },
+        {
+          "offset": 7045,
+          "kind": 2,
+          "address_word": 38713,
+          "resource": "statue"
+        },
+        {
+          "offset": 7056,
+          "kind": 2,
+          "address_word": 38715,
+          "resource": "rv"
+        },
+        {
+          "offset": 7063,
+          "kind": 2,
+          "address_word": 38719,
+          "resource": "wagon"
+        },
+        {
+          "offset": 7073,
+          "kind": 2,
+          "address_word": 38721,
+          "resource": "police"
+        },
+        {
+          "offset": 7084,
+          "kind": 2,
+          "address_word": 38723,
+          "resource": "van"
+        },
+        {
+          "offset": 7092,
+          "kind": 2,
+          "address_word": 38725,
+          "resource": "street"
+        },
+        {
+          "offset": 7103,
+          "kind": 2,
+          "address_word": 38727,
+          "resource": "akbar"
+        },
+        {
+          "offset": 7113,
+          "kind": 2,
+          "address_word": 38729,
+          "resource": "cmndr"
+        },
+        {
+          "offset": 7123,
+          "kind": 2,
+          "address_word": 38785,
+          "resource": "detapc"
+        },
+        {
+          "offset": 7134,
+          "kind": 2,
+          "address_word": 38787,
+          "resource": "humvtur"
+        },
+        {
+          "offset": 7146,
+          "kind": 2,
+          "address_word": 38881,
+          "resource": "bigrig"
+        },
+        {
+          "offset": 7157,
+          "kind": 2,
+          "address_word": 38885,
+          "resource": "greyhoun"
+        },
+        {
+          "offset": 7170,
+          "kind": 2,
+          "address_word": 38883,
+          "resource": "gastruck"
+        },
+        {
+          "offset": 7183,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        }
+      ]
+    },
+    "A": {
+      "tail_offset": 11852,
+      "entries": [
+        {
+          "offset": 11852,
+          "kind": 1,
+          "address_word": 38431,
+          "resource": "map10"
+        },
+        {
+          "offset": 11862,
+          "kind": 2,
+          "address_word": 38429,
+          "resource": "blocks10"
+        },
+        {
+          "offset": 11875,
+          "kind": 2,
+          "address_word": 38643,
+          "resource": "F215"
+        },
+        {
+          "offset": 11884,
+          "kind": 2,
+          "address_word": 38645,
+          "resource": "F216"
+        },
+        {
+          "offset": 11893,
+          "kind": 2,
+          "address_word": 38647,
+          "resource": "F217"
+        },
+        {
+          "offset": 11902,
+          "kind": 2,
+          "address_word": 38649,
+          "resource": "F218-219"
+        },
+        {
+          "offset": 11915,
+          "kind": 2,
+          "address_word": 38573,
+          "resource": "F160"
+        },
+        {
+          "offset": 11924,
+          "kind": 2,
+          "address_word": 38575,
+          "resource": "F161"
+        },
+        {
+          "offset": 11933,
+          "kind": 2,
+          "address_word": 38577,
+          "resource": "F162"
+        },
+        {
+          "offset": 11942,
+          "kind": 2,
+          "address_word": 38579,
+          "resource": "F163"
+        },
+        {
+          "offset": 11951,
+          "kind": 2,
+          "address_word": 38581,
+          "resource": "F164"
+        },
+        {
+          "offset": 11960,
+          "kind": 2,
+          "address_word": 38583,
+          "resource": "F165"
+        },
+        {
+          "offset": 11969,
+          "kind": 2,
+          "address_word": 38585,
+          "resource": "F166"
+        },
+        {
+          "offset": 11978,
+          "kind": 2,
+          "address_word": 38587,
+          "resource": "F167"
+        },
+        {
+          "offset": 11987,
+          "kind": 2,
+          "address_word": 38589,
+          "resource": "F168"
+        },
+        {
+          "offset": 11996,
+          "kind": 2,
+          "address_word": 38591,
+          "resource": "F169-170"
+        },
+        {
+          "offset": 12009,
+          "kind": 2,
+          "address_word": 38593,
+          "resource": "F171-172"
+        },
+        {
+          "offset": 12022,
+          "kind": 2,
+          "address_word": 38595,
+          "resource": "F173"
+        },
+        {
+          "offset": 12031,
+          "kind": 2,
+          "address_word": 38597,
+          "resource": "F174"
+        },
+        {
+          "offset": 12040,
+          "kind": 2,
+          "address_word": 38599,
+          "resource": "F175-176"
+        },
+        {
+          "offset": 12053,
+          "kind": 2,
+          "address_word": 38601,
+          "resource": "F177"
+        },
+        {
+          "offset": 12062,
+          "kind": 2,
+          "address_word": 38603,
+          "resource": "F178"
+        },
+        {
+          "offset": 12071,
+          "kind": 2,
+          "address_word": 38605,
+          "resource": "F179"
+        },
+        {
+          "offset": 12080,
+          "kind": 2,
+          "address_word": 38697,
+          "resource": "F22-24"
+        },
+        {
+          "offset": 12091,
+          "kind": 2,
+          "address_word": 38695,
+          "resource": "F25-26"
+        },
+        {
+          "offset": 12102,
+          "kind": 2,
+          "address_word": 38889,
+          "resource": "icebergs"
+        },
+        {
+          "offset": 12115,
+          "kind": 2,
+          "address_word": 38891,
+          "resource": "awac"
+        },
+        {
+          "offset": 12124,
+          "kind": 2,
+          "address_word": 38897,
+          "resource": "frigate"
+        },
+        {
+          "offset": 12136,
+          "kind": 2,
+          "address_word": 38763,
+          "resource": "radar"
+        },
+        {
+          "offset": 12146,
+          "kind": 2,
+          "address_word": 38761,
+          "resource": "gatgun"
+        },
+        {
+          "offset": 12157,
+          "kind": 2,
+          "address_word": 38755,
+          "resource": "boatpt"
+        },
+        {
+          "offset": 12168,
+          "kind": 2,
+          "address_word": 38745,
+          "resource": "subspry"
+        },
+        {
+          "offset": 12180,
+          "kind": 2,
+          "address_word": 38747,
+          "resource": "subtur"
+        },
+        {
+          "offset": 12191,
+          "kind": 2,
+          "address_word": 38743,
+          "resource": "aaa"
+        },
+        {
+          "offset": 12199,
+          "kind": 2,
+          "address_word": 38765,
+          "resource": "zsu"
+        },
+        {
+          "offset": 12207,
+          "kind": 2,
+          "address_word": 38821,
+          "resource": "m1"
+        },
+        {
+          "offset": 12214,
+          "kind": 2,
+          "address_word": 38753,
+          "resource": "raft"
+        },
+        {
+          "offset": 12223,
+          "kind": 2,
+          "address_word": 38775,
+          "resource": "ammo2"
+        },
+        {
+          "offset": 12233,
+          "kind": 2,
+          "address_word": 38777,
+          "resource": "life2"
+        },
+        {
+          "offset": 12243,
+          "kind": 2,
+          "address_word": 38893,
+          "resource": "tank1"
+        },
+        {
+          "offset": 12253,
+          "kind": 2,
+          "address_word": 38895,
+          "resource": "tank2"
+        },
+        {
+          "offset": 12263,
+          "kind": 2,
+          "address_word": 38819,
+          "resource": "chopper"
+        },
+        {
+          "offset": 12275,
+          "kind": 2,
+          "address_word": 38771,
+          "resource": "reactor"
+        },
+        {
+          "offset": 12287,
+          "kind": 2,
+          "address_word": 38729,
+          "resource": "cmndr"
+        },
+        {
+          "offset": 12297,
+          "kind": 2,
+          "address_word": 38733,
+          "resource": "goodguy"
+        },
+        {
+          "offset": 12309,
+          "kind": 2,
+          "address_word": 38887,
+          "resource": "snowman"
+        }
+      ]
+    }
+  },
+  "mission10_resources_in_other_level_tails": {
+    "aaa": [
+      "2"
+    ],
+    "ammo2": [
+      "2"
+    ],
+    "awac": [],
+    "blocks10": [],
+    "boatpt": [
+      "2"
+    ],
+    "chopper": [
+      "4",
+      "6",
+      "8"
+    ],
+    "cmndr": [
+      "1",
+      "3",
+      "4",
+      "6",
+      "9"
+    ],
+    "f160": [
+      "6"
+    ],
+    "f161": [
+      "6"
+    ],
+    "f162": [
+      "6"
+    ],
+    "f163": [
+      "6"
+    ],
+    "f164": [
+      "6"
+    ],
+    "f165": [
+      "6"
+    ],
+    "f166": [
+      "6"
+    ],
+    "f167": [
+      "6"
+    ],
+    "f168": [
+      "6"
+    ],
+    "f169-170": [
+      "6"
+    ],
+    "f171-172": [
+      "6"
+    ],
+    "f173": [
+      "6"
+    ],
+    "f174": [
+      "6"
+    ],
+    "f175-176": [
+      "6"
+    ],
+    "f177": [
+      "6"
+    ],
+    "f178": [
+      "6"
+    ],
+    "f179": [
+      "6"
+    ],
+    "f215": [
+      "8"
+    ],
+    "f216": [
+      "8"
+    ],
+    "f217": [
+      "8"
+    ],
+    "f218-219": [
+      "8"
+    ],
+    "f22-24": [
+      "3",
+      "5",
+      "6"
+    ],
+    "f25-26": [
+      "5",
+      "6"
+    ],
+    "frigate": [],
+    "gatgun": [
+      "3",
+      "6",
+      "8"
+    ],
+    "goodguy": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8",
+      "9"
+    ],
+    "icebergs": [],
+    "life2": [
+      "2"
+    ],
+    "m1": [
+      "6",
+      "8"
+    ],
+    "map10": [],
+    "radar": [
+      "3",
+      "5",
+      "6",
+      "7"
+    ],
+    "raft": [
+      "2",
+      "8"
+    ],
+    "reactor": [
+      "3",
+      "7"
+    ],
+    "snowman": [
+      "6"
+    ],
+    "subspry": [
+      "2"
+    ],
+    "subtur": [
+      "2"
+    ],
+    "tank1": [],
+    "tank2": [],
+    "zsu": [
+      "3",
+      "7"
+    ]
+  },
+  "caution": "These are resource dependencies, not object instances. Absence from another LEVEL tail does not prove an asset is new or unused by global loading."
+}
