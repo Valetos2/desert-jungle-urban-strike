@@ -16,4 +16,4 @@ with tempfile.TemporaryDirectory(prefix='eco_ntsc_') as temporary:
     # The custom blitter has no dependency on the GX global video bitmap.
     (include/'shared.h').write_text('')
     subprocess.run(['gcc', '-shared', '-fPIC', '-O2', '-I'+str(include),
-                    str(root/'ntsc_preview.c'), '-lm', '-o', str(root/'preview.so')], check=True)
+                    str(root/'ntsc_preview.c'), '-lm', '-o', str(root/'ntsc_filter.so')], check=True)

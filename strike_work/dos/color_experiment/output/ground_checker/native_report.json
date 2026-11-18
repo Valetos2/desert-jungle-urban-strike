@@ -1,0 +1,22 @@
+{
+  "size": [
+    5120,
+    3584
+  ],
+  "colors_including_transparent": 13,
+  "unique_tiles_with_flips": 449,
+  "pattern_bytes": 14368,
+  "world_pixels": [
+    5120,
+    3584
+  ],
+  "native_block_grid": [
+    20,
+    28
+  ],
+  "unique_native_blocks": 202,
+  "native_blob_bytes": 215552,
+  "candidate_rom_base": "0x300000",
+  "word_map_template_level": 2,
+  "status": "All 286720 map entries verified. ROM loader integration pending."
+}

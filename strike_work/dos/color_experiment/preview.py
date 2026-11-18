@@ -56,14 +56,17 @@ def sprite(name, frame):
     return image, colors
 
 
-def quantize_palette(indices, colors):
+def quantize_palette(indices, colors, reserved=()):
     visible = colors[indices[indices != 0]]
     unique, counts = np.unique(visible, axis=0, return_counts=True)
-    if len(unique) > 15:
+    limit = 15-len(reserved)
+    if len(unique) > limit:
         sample = Image.fromarray(visible.reshape(1, -1, 3))
-        quantized = sample.quantize(colors=15, method=Image.Quantize.MEDIANCUT)
-        unique = np.array(quantized.getpalette()[:45], dtype=np.uint8).reshape(15, 3)
+        quantized = sample.quantize(colors=limit, method=Image.Quantize.MEDIANCUT)
+        unique = np.array(quantized.getpalette()[:limit*3], dtype=np.uint8).reshape(limit, 3)
     levels = np.abs(unique[:, :, None].astype(float) - DAC).argmin(axis=2)
+    if reserved:
+        levels = np.vstack([levels, np.array(reserved, dtype=int)])
     levels = np.unique(levels, axis=0)
     return np.vstack([np.zeros((1, 3), dtype=int), levels])
 
@@ -95,7 +98,7 @@ def ntsc(indices, levels):
     frame = np.zeros((h, width), dtype=np.uint16)
     frame[:, 4:4+w] = codes[indices]
     output = np.zeros((h, width*2), dtype=np.uint16)
-    lib = ctypes.CDLL(str(Path(__file__).with_name('preview.so')))
+    lib = ctypes.CDLL(str(Path(__file__).with_name('ntsc_filter.so')))
     lib.preview.argtypes = [ctypes.c_void_p, ctypes.c_void_p, ctypes.c_int, ctypes.c_int]
     lib.preview(frame.ctypes.data, output.ctypes.data, width, h)
     rgb = np.stack([((output>>11)&31)*255//31, ((output>>5)&63)*255//63, (output&31)*255//31], axis=2).astype(np.uint8)
@@ -165,16 +168,22 @@ def main():
     reports = {}
     for name, frame, title in [('AWAC', 0, 'Сбитый AWAC'), ('TANK1', 4, 'Целевой танкер'), ('F217', 0, 'Четырёхэтажная башня')]:
         indices, source = sprite(name, frame)
-        levels = quantize_palette(indices, source)
+        levels = quantize_palette(indices, source, reserved=((7, 0, 0), (7, 4, 0), (7, 6, 1)) if name == 'AWAC' else ())
         variants = candidates(indices, source, levels)
         pictures = [Image.fromarray(source[indices])]+[Image.fromarray(DAC[levels][v].astype(np.uint8)) for v in variants]
         objects.append((title, pictures))
         reports[name] = {mode: export(name+'_'+mode, v, levels) for mode, v in zip(['nearest', 'stripes', 'checker'], variants)}
+        if name == 'AWAC':
+            rgb = DAC[levels][variants[2]]
+            red = (rgb[:, :, 0] > 170) & (rgb[:, :, 1] < 90) & (rgb[:, :, 2] < 60)
+            yellow = (rgb[:, :, 0] > 170) & (rgb[:, :, 1] > 150) & (rgb[:, :, 2] < 100)
+            assert red.any() and yellow.any()
+            reports[name]['fire_pixels_checker'] = {'red': int(red.sum()), 'yellow': int(yellow.sum())}
     sheet(objects, 'Eco_Threat_objects_RGB.png')
     filtered = []
     for name, frame, title in [('AWAC', 0, 'Сбитый AWAC'), ('TANK1', 4, 'Целевой танкер'), ('F217', 0, 'Четырёхэтажная башня')]:
         indices, source = sprite(name, frame)
-        levels = quantize_palette(indices, source)
+        levels = quantize_palette(indices, source, reserved=((7, 0, 0), (7, 4, 0), (7, 6, 1)) if name == 'AWAC' else ())
         filtered.append((title, [ntsc(v, levels) for v in candidates(indices, source, levels)]))
     sheet(filtered, 'Eco_Threat_objects_NTSC.png', True)
     blocks = (RES/'BLOCKS10').read_bytes()

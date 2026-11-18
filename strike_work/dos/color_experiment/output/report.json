@@ -26,6 +26,10 @@
       "colors_including_transparent": 11,
       "unique_tiles_with_flips": 310,
       "pattern_bytes": 9920
+    },
+    "fire_pixels_checker": {
+      "red": 69,
+      "yellow": 49
     }
   },
   "TANK1": {
