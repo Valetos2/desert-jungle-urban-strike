@@ -1,0 +1,89 @@
+{
+  "AWAC": {
+    "nearest": {
+      "size": [
+        240,
+        128
+      ],
+      "colors_including_transparent": 11,
+      "unique_tiles_with_flips": 311,
+      "pattern_bytes": 9952
+    },
+    "stripes": {
+      "size": [
+        240,
+        128
+      ],
+      "colors_including_transparent": 11,
+      "unique_tiles_with_flips": 310,
+      "pattern_bytes": 9920
+    },
+    "checker": {
+      "size": [
+        240,
+        128
+      ],
+      "colors_including_transparent": 11,
+      "unique_tiles_with_flips": 310,
+      "pattern_bytes": 9920
+    }
+  },
+  "TANK1": {
+    "nearest": {
+      "size": [
+        288,
+        176
+      ],
+      "colors_including_transparent": 15,
+      "unique_tiles_with_flips": 244,
+      "pattern_bytes": 7808
+    },
+    "stripes": {
+      "size": [
+        288,
+        176
+      ],
+      "colors_including_transparent": 15,
+      "unique_tiles_with_flips": 245,
+      "pattern_bytes": 7840
+    },
+    "checker": {
+      "size": [
+        288,
+        176
+      ],
+      "colors_including_transparent": 15,
+      "unique_tiles_with_flips": 245,
+      "pattern_bytes": 7840
+    }
+  },
+  "F217": {
+    "nearest": {
+      "size": [
+        128,
+        160
+      ],
+      "colors_including_transparent": 11,
+      "unique_tiles_with_flips": 143,
+      "pattern_bytes": 4576
+    },
+    "stripes": {
+      "size": [
+        128,
+        160
+      ],
+      "colors_including_transparent": 11,
+      "unique_tiles_with_flips": 151,
+      "pattern_bytes": 4832
+    },
+    "checker": {
+      "size": [
+        128,
+        160
+      ],
+      "colors_including_transparent": 11,
+      "unique_tiles_with_flips": 150,
+      "pattern_bytes": 4800
+    }
+  }
+}
