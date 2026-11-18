@@ -1,0 +1,22 @@
+{
+  "source_sha256": {
+    "BLOCKS10": "92cab386cd27e607e458f634238173393ba26346750def66964f608bca8a4b61",
+    "MAP10": "f308cecba0b21d6f47d3eba5b20d633365e2f8d5f1a8133899e017e05f333560"
+  },
+  "world_pixels": [
+    5120,
+    3584
+  ],
+  "map_tiles": [
+    640,
+    448
+  ],
+  "used_source_colors": 14,
+  "source_blocks_16x16": 128,
+  "unique_patterns_8x8_with_flips": 344,
+  "pattern_bytes": 11008,
+  "map_bytes": 573440,
+  "palette_bytes": 32,
+  "layout_status": "Reconstructed DOS layout, pending native renderer verification",
+  "vram_status": "Indices start at zero. Assign a VRAM base and palette line in the Genesis loader."
+}
