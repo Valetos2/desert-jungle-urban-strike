@@ -1,0 +1,22 @@
+{
+  "sha256": "550d141349f2ba1474f21046e37c3191d86f1792a25b0a28ebffe3e67f1ab737",
+  "new_ids": [
+    3,
+    6,
+    12,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    67,
+    83,
+    84
+  ],
+  "debug_z": true,
+  "ips_bytes": 77093,
+  "ips_sha256": "242b054cb4c8e6219a52ff6444e63d8b9647c8324a51df584bbf67002e0c9bb0",
+  "ips_roundtrip": true
+}
