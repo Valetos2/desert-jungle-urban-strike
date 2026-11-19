@@ -1,0 +1,23 @@
+{
+  "sha256": "e95acc6fcba04d7edda9ac047d33a3888ee5f50949f22821c9e6b5f9b7b4d482",
+  "campaign_cycle": true,
+  "new_objects": [
+    5,
+    74,
+    89,
+    90,
+    65,
+    66,
+    85,
+    86,
+    87,
+    88
+  ],
+  "map_targets": [
+    2,
+    3
+  ],
+  "ips_bytes": 79140,
+  "ips_sha256": "a2f12f44f5eebf6c7226fd36ee47447fbae9cc6d47fd65ceca833009e4d1d030",
+  "ips_roundtrip": true
+}
