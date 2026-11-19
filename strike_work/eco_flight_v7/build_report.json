@@ -1,0 +1,12 @@
+{
+  "sha256": "9abdb30c8f6ecca13d61da2aa12e67f6677680558bff78d103735d4e6ebfd43f",
+  "terrain_tiles": 268,
+  "new_objects": [
+    1,
+    73,
+    82
+  ],
+  "ips_bytes": 77769,
+  "ips_sha256": "15aa96efa6c718327639d258d625ab3fc60d0cb5b2fa2e09232fdd7e3e0caf38",
+  "ips_roundtrip": true
+}
