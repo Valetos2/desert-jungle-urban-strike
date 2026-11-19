@@ -1,0 +1,17 @@
+{
+  "method": "isolated real-CPU branch check, not a full mission playthrough",
+  "results": [
+    {
+      "completed_campaign": 9,
+      "next_index": 9,
+      "branch": "load_next",
+      "pc": "0x3d904"
+    },
+    {
+      "completed_campaign": 10,
+      "next_index": 10,
+      "branch": "ending",
+      "pc": "0x3dcdc"
+    }
+  ]
+}

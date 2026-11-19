@@ -42,3 +42,10 @@ Compact IPS files produce byte-identical ROMs to Checkpoint 12; only patch packa
 `main`: accepted stable changes. `wip`: ongoing research and experimental modifications, committed and pushed after each coherent change. DOS bonus missions are **not implemented** in these stable patches.
 
 Local ROMs, CD images, extracted game assets, emulator saves and build outputs must stay outside Git history. See [AGENTS.md](AGENTS.md). The game code, graphics and audio belong to their respective rights holders; this unofficial project is not affiliated with Electronic Arts. No license to the original games is granted.
+
+
+## Eco Threat — flight prototype v2
+
+The DOS bonus mission now has its own tenth Genesis campaign index; the original nine level entries are preserved. The prototype uses the DOS player start, a new pause overview, native Genesis water/snow textures with a cold palette, and the campaign-6 aircraft departure scene. Mission objects and scripts are still pending.
+
+[Описание и сборка / Russian notes](strike_work/eco_flight_v2/README_RU.md) · [IPS for the clean original](patches/experimental/Jungle_Strike_Eco_Threat_Flight_TEST_v2.ips).
