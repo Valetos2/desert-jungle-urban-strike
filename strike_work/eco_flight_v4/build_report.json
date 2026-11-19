@@ -1,0 +1,9 @@
+{
+  "sha256": "1fb4914323df0924bcf00a9590fe619e23fa6c85f013f5f5ea220c4aff02fbf0",
+  "size": 4194304,
+  "objects": 47,
+  "objectives": 8,
+  "ips_bytes": 75739,
+  "ips_sha256": "aed32f747c5a0d59f33f1c5ff9e6b7e4fcc4b9c64dd713e955f2c00aa16e3bde",
+  "ips_roundtrip": true
+}
