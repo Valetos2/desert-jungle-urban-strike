@@ -1,0 +1,16 @@
+{
+  "base_sha256": "ab521b5c88aa58020781cedff19a4929f1af8a048bd479a7128be45952bd9ea5",
+  "sha256": "cbad678e2960046f1d7ef0101b18de866e8da3c910ef88e48bb90bb326f1463f",
+  "size": 4194304,
+  "level_pointer": "0x210200",
+  "tileset_pointer": "0x210000",
+  "spawn": [
+    800,
+    2600
+  ],
+  "original_sha1": "7a7568e39341b1bb218280ee05c2b37c273317b5",
+  "standard_checksum": "0xbb6",
+  "ips_bytes": 235124,
+  "ips_sha256": "827c5bb2bf3d1383a2c3359c4e08a407208a5e9748bb914506fe9e384a672612",
+  "ips_roundtrip": true
+}
