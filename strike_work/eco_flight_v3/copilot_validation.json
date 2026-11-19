@@ -1,0 +1,32 @@
+[
+  {
+    "requested": 0,
+    "selected": 0,
+    "after_accept_pc": "0x39388",
+    "lock_mask": 0
+  },
+  {
+    "requested": 1,
+    "selected": 1,
+    "after_accept_pc": "0x39380",
+    "lock_mask": 0
+  },
+  {
+    "requested": 2,
+    "selected": 2,
+    "after_accept_pc": "0x39388",
+    "lock_mask": 0
+  },
+  {
+    "requested": 3,
+    "selected": 3,
+    "after_accept_pc": "0x39380",
+    "lock_mask": 0
+  },
+  {
+    "requested": 4,
+    "selected": 4,
+    "after_accept_pc": "0x39388",
+    "lock_mask": 0
+  }
+]

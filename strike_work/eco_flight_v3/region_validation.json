@@ -1,0 +1,82 @@
+[
+  {
+    "case": "start",
+    "index": 9,
+    "boot_frame": 1242,
+    "ground_slot": "0x210",
+    "resource_flags": "0x4200",
+    "pause_resume": true
+  },
+  {
+    "case": "northeast",
+    "index": 9,
+    "boot_frame": 1242,
+    "ground_slot": "0x210",
+    "resource_flags": "0x4200",
+    "pause_resume": true
+  },
+  {
+    "case": "northwest",
+    "index": 9,
+    "boot_frame": 1242,
+    "ground_slot": "0x210",
+    "resource_flags": "0x4200",
+    "pause_resume": true
+  },
+  {
+    "case": "southeast",
+    "index": 9,
+    "boot_frame": 1242,
+    "ground_slot": "0x210",
+    "resource_flags": "0x4200",
+    "pause_resume": true
+  },
+  {
+    "case": "southwest",
+    "index": 9,
+    "boot_frame": 1242,
+    "ground_slot": "0x210",
+    "resource_flags": "0x4200",
+    "pause_resume": true
+  },
+  {
+    "case": "center",
+    "index": 9,
+    "boot_frame": 1243,
+    "ground_slot": "0x210",
+    "resource_flags": "0x24200",
+    "pause_resume": true
+  },
+  {
+    "case": "platform",
+    "index": 9,
+    "boot_frame": 1243,
+    "ground_slot": "0x210",
+    "resource_flags": "0x24200",
+    "pause_resume": true
+  },
+  {
+    "case": "original2",
+    "index": 1,
+    "boot_frame": 1246,
+    "ground_slot": "0x217",
+    "resource_flags": "0x2e00",
+    "pause_resume": true
+  },
+  {
+    "case": "original6",
+    "index": 5,
+    "boot_frame": 1248,
+    "ground_slot": "0x0",
+    "resource_flags": "0x25200",
+    "pause_resume": true
+  },
+  {
+    "case": "original9",
+    "index": 8,
+    "boot_frame": 1102,
+    "ground_slot": "0x0",
+    "resource_flags": "0x11020200",
+    "pause_resume": true
+  }
+]

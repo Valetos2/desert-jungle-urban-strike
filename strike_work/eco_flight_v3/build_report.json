@@ -1,0 +1,17 @@
+{
+  "base_sha256": "ab521b5c88aa58020781cedff19a4929f1af8a048bd479a7128be45952bd9ea5",
+  "sha256": "3be3c8dd5d6d1ae080abacc252f9d922f79501dbfc0a38c89a4f422fcb5027fc",
+  "size": 4194304,
+  "level_pointer": "0x210200",
+  "tileset_pointer": "0x210000",
+  "spawn": [
+    3859,
+    40
+  ],
+  "campaign_index": 9,
+  "original_sha1": "7a7568e39341b1bb218280ee05c2b37c273317b5",
+  "standard_checksum": "0x25d9",
+  "ips_bytes": 73598,
+  "ips_sha256": "e038c80050962c05badcf203eccc5638a7f421a2e66fa083b90e51a6d830fea3",
+  "ips_roundtrip": true
+}
