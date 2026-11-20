@@ -3,7 +3,7 @@ import struct
 from collections import defaultdict
 import numpy as np
 
-def recolor(rom, v3):
+def recolor(rom, v3, static_water_index=13):
     def w(p): return struct.unpack_from('>H',rom,p)[0]
     def u(p): return struct.unpack_from('>I',rom,p)[0]
     def pixels(data):
@@ -16,7 +16,7 @@ def recolor(rom, v3):
     snowcodes=np.frombuffer(rom[snowmap:snowmap+512],np.uint8).reshape(16,32)
     # Palette 0 is the untouched Snow Fortress terrain line. Palette 1 also
     # preserves the native building/pad colors; only 13 and 15 are free.
-    coast=np.array([13,13,13,13,2,2,3,3,5,15,15,15,12,3,5,13],np.uint8)
+    coast=np.array([13,static_water_index,13,13,2,2,3,3,5,15,15,15,12,3,5,13],np.uint8)
     tiles=[]
     aliases={}
     blocks={}

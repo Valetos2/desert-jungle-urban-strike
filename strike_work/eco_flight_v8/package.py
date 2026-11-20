@@ -1,9 +1,10 @@
 """Create an IPS against the clean original and verify exact reconstruction."""
 from pathlib import Path
-import hashlib,json,zipfile
-ROOT=Path(__file__).resolve().parent
+import hashlib,json,sys,zipfile
+rom=Path(sys.argv[1]) if len(sys.argv)>1 else Path(__file__).with_name('Jungle_Strike_Eco_Threat_Flight_TEST_v8.bin')
+ROOT=rom.parent
 old=Path('strikehd/rom/jungle_strike.bin').read_bytes()
-rom=ROOT/'Jungle_Strike_Eco_Threat_Flight_TEST_v8.bin'
+assert hashlib.sha1(old).hexdigest()=='7a7568e39341b1bb218280ee05c2b37c273317b5'
 new=rom.read_bytes()
 patch=bytearray(b'PATCH');i=0
 while i<len(new):
@@ -46,4 +47,6 @@ r=json.loads((ROOT/'build_report.json').read_text());r.update(ips_bytes=len(patc
 with zipfile.ZipFile(rom.with_suffix('.zip'),'w',zipfile.ZIP_DEFLATED) as z:
     for path in [rom,ips,ROOT/'README_RU.md',ROOT/'build_report.json']:
         z.write(path,path.name)
+    if (ROOT/'validation.json').is_file():
+        z.write(ROOT/'validation.json','validation.json')
 print(json.dumps(r,indent=2))
