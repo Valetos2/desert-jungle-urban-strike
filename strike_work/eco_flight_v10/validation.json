@@ -1,0 +1,49 @@
+{
+  "map": {
+    "player_animation_frames": 4,
+    "0": [],
+    "1": [
+      2
+    ],
+    "2": [
+      3
+    ],
+    "3": []
+  },
+  "enemies": {
+    "0": {
+      "armor": 25,
+      "shots_before_attack": 3,
+      "height": 0,
+      "off_axis_gunfire_missed": true
+    },
+    "77": {
+      "armor": 25,
+      "shots_before_attack": 6,
+      "height": 32
+    },
+    "130": {
+      "armor": 3,
+      "shots_before_attack": 5,
+      "height": 0,
+      "off_axis_gunfire_missed": true
+    }
+  },
+  "mound_pickups": [
+    99,
+    100,
+    107
+  ],
+  "wires": {
+    "camera_positions": 1643,
+    "sector_sets": 7,
+    "visible_tile_samples": [
+      1792,
+      823,
+      2141,
+      1548,
+      5453,
+      2123
+    ]
+  }
+}

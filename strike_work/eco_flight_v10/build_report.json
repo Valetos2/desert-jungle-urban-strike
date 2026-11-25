@@ -1,0 +1,170 @@
+{
+  "sha256": "b62757f308158d61af9edea0d36b62723d8c9f8864fa113ab87033fbeeca0603",
+  "actors": [
+    {
+      "dos_index": 0,
+      "slot": 1,
+      "offset": -42,
+      "xy": [
+        146,
+        198
+      ],
+      "height": 0,
+      "type": "a4e6"
+    },
+    {
+      "dos_index": 2,
+      "slot": 2,
+      "offset": -56,
+      "xy": [
+        146,
+        214
+      ],
+      "height": 0,
+      "type": "9fe2"
+    },
+    {
+      "dos_index": 3,
+      "slot": 3,
+      "offset": -70,
+      "xy": [
+        226,
+        206
+      ],
+      "height": 0,
+      "type": "a4e6"
+    },
+    {
+      "dos_index": 77,
+      "slot": 4,
+      "offset": -84,
+      "xy": [
+        195,
+        154
+      ],
+      "height": 32,
+      "type": "b0a8"
+    },
+    {
+      "dos_index": 99,
+      "slot": 5,
+      "offset": -98,
+      "xy": [
+        744,
+        308
+      ],
+      "height": 0,
+      "type": "a014"
+    },
+    {
+      "dos_index": 100,
+      "slot": 6,
+      "offset": -112,
+      "xy": [
+        760,
+        316
+      ],
+      "height": 0,
+      "type": "9fe2"
+    },
+    {
+      "dos_index": 107,
+      "slot": 7,
+      "offset": -126,
+      "xy": [
+        2735,
+        436
+      ],
+      "height": 0,
+      "type": "a014"
+    },
+    {
+      "dos_index": 130,
+      "slot": 8,
+      "offset": -140,
+      "xy": [
+        212,
+        2949
+      ],
+      "height": 0,
+      "type": "a55e"
+    },
+    {
+      "dos_index": 131,
+      "slot": 9,
+      "offset": -154,
+      "xy": [
+        594,
+        984
+      ],
+      "height": 0,
+      "type": "a4e6"
+    },
+    {
+      "dos_index": 136,
+      "slot": 10,
+      "offset": -168,
+      "xy": [
+        146,
+        2776
+      ],
+      "height": 0,
+      "type": "a55e"
+    },
+    {
+      "dos_index": 137,
+      "slot": 11,
+      "offset": -182,
+      "xy": [
+        898,
+        584
+      ],
+      "height": 0,
+      "type": "a4e6"
+    },
+    {
+      "dos_index": 145,
+      "slot": 12,
+      "offset": -196,
+      "xy": [
+        2146,
+        828
+      ],
+      "height": 0,
+      "type": "a55e"
+    },
+    {
+      "dos_index": 159,
+      "slot": 13,
+      "offset": -210,
+      "xy": [
+        3724,
+        80
+      ],
+      "height": 0,
+      "type": "a014"
+    },
+    {
+      "dos_index": 160,
+      "slot": 14,
+      "offset": -224,
+      "xy": [
+        3744,
+        70
+      ],
+      "height": 0,
+      "type": "9fe2"
+    }
+  ],
+  "persistent_wire_slots": [
+    68,
+    69,
+    70,
+    71,
+    72,
+    73
+  ],
+  "ips_bytes": 88254,
+  "ips_sha256": "218b0f040fed3438e0e31be4ef462ef87ba1d35e40b835032e748594504c1dc7",
+  "ips_roundtrip": true
+}
