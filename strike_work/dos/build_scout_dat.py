@@ -47,6 +47,16 @@ def patch_executable(data):
     ammo += jump(0xafd7 + len(ammo), 0x7eb3)
     write(0xafd7, '66833e7c5a027c0f66c7067c5a88ffffffc706165c7202', ammo)
     write(0x7ea8, '803e9055ff7404836c0c01', jump(0x7ea8, 0xafd7))
+    # DEFINE KEYS commits eight scan codes in this order at CS:27CE.
+    # The menu and the flight poller both read the same DS table.
+    ds = 16 * struct.unpack_from('<H', exe, code + 4)[0]
+    write(ds + 0x1d9f, 'cb cd c8 d0 1d 2e 2d 2c',
+          bytes.fromhex('1e 20 11 1f 4b 51 50 4f'))
+    # Give Scout its own native config profile so a retail or v1 CFG cannot
+    # silently supersede these defaults. Later DEFINE KEYS edits still win.
+    write(ds + 0x1d90, b'JUNGLE.CFG\0'.hex(), b'SCOUT2.CFG\0')
+    # Read existing profiles even from a read-only mounted CD directory.
+    write(0x2af8, 'b8 02 3d', bytes.fromhex('b8 00 3d'))
     return bytes(exe)
 
 

@@ -1,13 +1,14 @@
 """Run the game's real decoder and patched routines in a 16-bit CPU emulator."""
 from pathlib import Path
 import struct
+import sys
 from unicorn import Uc, UC_ARCH_X86, UC_MODE_16, UC_HOOK_INTR
 from unicorn.x86_const import *
 from build_scout_dat import patch_executable
 from unpack_dat import unpack
 
 ROOT = Path(__file__).parent
-data = (ROOT/'scout/JUNGLE.DAT').read_bytes()
+data = (Path(sys.argv[1]) if len(sys.argv) > 1 else ROOT/'scout2/JUNGLE.DAT').read_bytes()
 original = (ROOT/'files/JUNGLE.DAT').read_bytes()
 start, = struct.unpack_from('<I', data, 24)
 end, = struct.unpack_from('<I', data, 40)
@@ -99,3 +100,72 @@ for available in (0,1,99):
     run(u,0xafc3,0xaff6)
     assert r(u,D+0x3e7d)==100
 print('Player armor, other-target damage, fuel restoration and ammo consumption OK')
+
+# Write and reload the native profile, with DOS file I/O backed by memory.
+cfg = {}
+def cfg_cpu():
+    u = game()
+    image = exe[struct.unpack_from('<H', exe, 8)[0]*16:]
+    base = struct.unpack_from('<H', image, 4)[0]*16
+    u.mem_write(D, image[base:base+65536])
+    u.reg_write(UC_X86_REG_ES, D//16)
+    w(u, 10, 0x5000)  # loader-provided buffer for the config
+    def dos_io(u, interrupt, _):
+        assert interrupt == 0x21
+        fn = u.reg_read(UC_X86_REG_AH)
+        ptr = u.reg_read(UC_X86_REG_DS)*16 + u.reg_read(UC_X86_REG_DX)
+        count = u.reg_read(UC_X86_REG_CX)
+        carry = False
+        if fn in (0x3c,0x3d):
+            name = bytes(u.mem_read(ptr,11)).split(b'\0')[0]
+            assert name == b'SCOUT2.CFG'
+            carry = fn == 0x3d and 'data' not in cfg
+            result = 2 if carry else 5
+        elif fn == 0x3f:
+            chunk = cfg['data'][:count]
+            u.mem_write(ptr,chunk)
+            result = len(chunk)
+        elif fn == 0x40:
+            cfg['data'] = bytes(u.mem_read(ptr,count))
+            result = count
+        else:
+            assert fn == 0x3e
+            result = 0
+        u.reg_write(UC_X86_REG_AX,result)
+        u.reg_write(UC_X86_REG_EFLAGS,(u.reg_read(UC_X86_REG_EFLAGS)&~1)|carry)
+    u.hook_add(UC_HOOK_INTR,dos_io)
+    u.reg_write(UC_X86_REG_SP,0x1800)
+    u.emu_start(0x2ae1,0x2b33,count=50000)
+    assert u.reg_read(UC_X86_REG_IP)==0x2b33
+    return u
+
+def menu(u):
+    u.reg_write(UC_X86_REG_SI,0x1d9f)
+    u.reg_write(UC_X86_REG_BX,0x1ccc)
+    run(u,0x280e)
+    result=[]
+    for i in range(8):
+        label=r(u,D+r(u,D+0x1ccc+2*i))
+        result.append(bytes(u.mem_read(D+label,12)).split(b'\0')[0].decode())
+    return result
+
+keys=bytes.fromhex('1e 20 11 1f 4b 51 50 4f')
+u=cfg_cpu()
+labels=menu(u)
+assert [s.upper() for s in labels]==['A','D','W','S','* 4','* 3','* 2','* 1'],labels
+for scan,mask in zip(keys,[4,8,1,2,128,64,16,32]):
+    u.mem_write(D+0x43d+scan,b'\1')
+    u.reg_write(UC_X86_REG_AX,0)
+    u.reg_write(UC_X86_REG_BX,0)
+    run(u,0x2a17)
+    assert u.reg_read(UC_X86_REG_AL)==mask
+    u.mem_write(D+0x43d+scan,b'\0')
+# Confirm later edits via DEFINE KEYS survive a native save and restart.
+u.mem_write(D+0x1cec,bytes([0x10])+keys[1:])
+u.emu_start(0x27ce,0x27d9,count=100)
+run(u,0x2bb4)
+fresh=cfg_cpu()
+assert menu(fresh)[0].upper()=='Q'
+assert bytes(fresh.mem_read(D+0x1d9f,8))==bytes([0x10])+keys[1:]
+print('DEFINE KEYS labels:', ', '.join(labels))
+print('Eight native input masks and changed binding after native CFG save/reload OK')
