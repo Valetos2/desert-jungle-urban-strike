@@ -1,0 +1,21 @@
+{
+  "sha256": "f3039dddc83a79f8188ce3837eee691c543a144c64ed0c9c4f2494996b448d78",
+  "actors": [
+    18,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36
+  ],
+  "ips_bytes": 105941,
+  "ips_sha256": "3c168d4f4a7ff662bad8a6ef2ad77b75aa9d051c327243b3bdfa02377161c531",
+  "ips_roundtrip": true
+}
