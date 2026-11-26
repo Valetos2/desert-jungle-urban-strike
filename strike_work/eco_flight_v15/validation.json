@@ -1,0 +1,66 @@
+{
+  "positions": [
+    [
+      3092,
+      482
+    ],
+    [
+      605,
+      2489
+    ],
+    [
+      459,
+      3294
+    ]
+  ],
+  "route": {
+    "14": [
+      {
+        "free": 54,
+        "camera": [
+          551,
+          2377
+        ],
+        "sectors": "0x292a3334",
+        "bank_mask": "0x6300",
+        "failure": 1,
+        "pc": "0x3d778"
+      },
+      {
+        "free": 38,
+        "camera": [
+          404,
+          3068
+        ],
+        "sectors": "0x32333c3d",
+        "bank_mask": "0x6300",
+        "failure": 1,
+        "pc": "0x3d778"
+      }
+    ],
+    "15": [
+      {
+        "free": 8,
+        "camera": [
+          551,
+          2377
+        ],
+        "sectors": "0x292a3334",
+        "bank_mask": "0x134300",
+        "failure": 0,
+        "pc": "0x3d778"
+      },
+      {
+        "free": 29,
+        "camera": [
+          402,
+          3074
+        ],
+        "sectors": "0x32333c3d",
+        "bank_mask": "0x134300",
+        "failure": 1,
+        "pc": "0x3d69c"
+      }
+    ]
+  }
+}
