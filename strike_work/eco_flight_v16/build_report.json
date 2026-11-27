@@ -1,0 +1,9 @@
+{
+  "sha256": "cb51b50124b20313b0afd900afad0cbb483f2f78bd9e8f147d452cb3ef30013a",
+  "boat_route": "0x1927aa",
+  "wire_tiles": 38,
+  "igloo_slot": 86,
+  "ips_bytes": 172659,
+  "ips_sha256": "e2d151d2886d89e86e0d646fdc756b68008e02f6b70a19dc0b466288644b99ec",
+  "ips_roundtrip": true
+}

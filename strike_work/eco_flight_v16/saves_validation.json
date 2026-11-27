@@ -1,0 +1,86 @@
+{
+  "gs2_camera": [
+    480,
+    3075
+  ],
+  "requested_banks": "0x136200",
+  "wires": {
+    "0": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "active": true,
+      "base": 0
+    },
+    "1": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "active": true,
+      "base": 0
+    },
+    "2": {
+      "counts": [
+        21,
+        0,
+        0
+      ],
+      "active": true,
+      "base": 0
+    },
+    "3": {
+      "counts": [
+        14,
+        0,
+        0
+      ],
+      "active": true,
+      "base": 0
+    },
+    "4": {
+      "counts": [
+        37,
+        4,
+        0
+      ],
+      "active": true,
+      "base": 0
+    },
+    "5": {
+      "counts": [
+        0,
+        0,
+        0
+      ],
+      "active": true,
+      "base": 0
+    },
+    "6": {
+      "counts": [
+        12,
+        8,
+        8
+      ],
+      "active": true,
+      "base": 1152
+    }
+  },
+  "gs1_camera": [
+    92,
+    3292
+  ],
+  "gun_15": [
+    "0xc1ec",
+    "0xc1f5",
+    "0xc1f7"
+  ],
+  "gun_16": [
+    "0x41ec",
+    "0x41f5",
+    "0x41f7"
+  ]
+}
